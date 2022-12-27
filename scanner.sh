@@ -24,7 +24,7 @@ step_1(){
 }
 
 subnet_select(){
-    echo "Please enter the desired IP address"
+    echo "Please enter the desired network IP address"
     echo -n ">> "
     read input_ip_addr
     ip=$input_ip_addr
