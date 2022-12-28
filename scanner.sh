@@ -89,9 +89,12 @@ scanner(){
     # -sS: SYN Stealth
     # -p: ports
     # --open: only displays open ports
+    # --randomize-hosts: avoid scanning consecutive IPs
+    # --scan-delay: adds a delay before each probe
+    # --max-rate: limits the number of sent packets per second
     # -oG: grepable output (https://nmap.org/book/output-formats-grepable-output.html)
     # 1>/dev/null: suppresses all console output
-    nmap -sS -p $ports $cidr_addr --open -oG $file_name 1>/dev/null
+    nmap -sS -p $ports $cidr_addr --open --randomize-hosts --scan-delay 2s --max-rate 10 -oG $file_name 1>/dev/null
     echo "[INFO] Saved the output to $file_name"
     echo "[INFO] Port scan done"
 }

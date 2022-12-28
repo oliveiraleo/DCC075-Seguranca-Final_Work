@@ -26,4 +26,4 @@ This code was part of the Security Systems course
 
 ## License
 
-This repository is released to the public domain, please check its [license file](./LICENSE)
+This repository is released into the public domain, please check its [license file](./LICENSE)
