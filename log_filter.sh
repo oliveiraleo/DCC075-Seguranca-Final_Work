@@ -55,6 +55,7 @@ menu(){
     filter_http_port "4"
 
     cleanup
+    echo "[INFO] Filtering done"
 }
 
 #Execution
