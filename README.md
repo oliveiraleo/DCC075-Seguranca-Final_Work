@@ -12,7 +12,7 @@ By downloading and/or using this software, you agree with the terms below:
 
 This repository contains some scripts that work as automated interfaces to other programs aiming to make it easier to scan for targets and then brute force their credentials
 
-This code was part of the Security Systems course
+This code was implemented as part of requirements for successfully completing the Security Systems (DCC075) course
 
 ## How to run
 
